@@ -38,7 +38,7 @@ python ./data/decode_pkl.py
 ```
 
 ## Other
-Concerns might good to note when trainging bart with HF:
+Concerns maybe good to note when trainging bart with the HF library:
 - [BartConfig wrong decoder_start_token_id](https://github.com/huggingface/transformers/issues/5212)
 - [Bart input format](https://discuss.huggingface.co/t/bart-input-format/1078)
 
