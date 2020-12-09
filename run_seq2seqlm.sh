@@ -1,0 +1,14 @@
+python run_seq2seqlm.py \
+		--model_type bart \
+		--model_name_or_path '' \
+		--tokenizer_name facebook/bart-large \
+		--dataset_name ./data/wikipedia_bookcorpus_bart_blocksize_1024_concate.pkl \
+		--mlm_probability 0.15 \
+		--per_device_train_batch_size 2 \
+		--num_train_epochs 1 \
+		--warmup_steps 100 \
+		--learning_rate 2e-5 \
+		--save_total_limit 20 \
+		--do_train \
+		--output_dir ../output \
+		--overwrite_output_dir
