@@ -1,6 +1,6 @@
 # Script for training Bart from scratch
 
-This is a minor hack on the Huggingface library to have a script for training Bart from scratch, in particular with the Wikipedia and Books corpus. All the scripts and codes are adpated from the library. Also, it's a simplified version in terms of the noising functions used, where only token masking and sentence permutation are implemented.
+This is a minor hack on the Huggingface library to have a script for training Bart from scratch, in particular with the Wikipedia and Books corpus. All the scripts and codes are adapted from the library. Also, it's a simplified version in terms of the noising functions used, where only token masking and sentence permutation are implemented.
 
 ## Set up the environment
 ```
